@@ -32,7 +32,7 @@ Get-PostNordParcelInformation -APIkey "123456789" -ShipmentID "987654321"
 
 
 ## Credit
-Developed by: Freddie Christiansen | [My blog](www.cloudpilot.no)
+Developed by: Freddie Christiansen | [CloudPilot.no](https://www.cloudpilot.no)
 
 
 ## License
