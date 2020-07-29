@@ -3,21 +3,21 @@
 A simple PowerShell function to retrieve tracking information from the PostNord API.
 
 ## Synopsis
-*Synopsis
+* Synopsis
    A simple PowerShell function to retrieve tracking information from the PostNord API.
-*PARAMETER APIKey
+* PARAMETER APIKey
    You'll need a API-key to call the API. You can easily obtain a API-key by register for a "Free plan" by visiting
    https://developer.postnord.com. 
-*PARAMETER ShipmentID
+* PARAMETER ShipmentID
     A string with your parcels shipping ID/Number.
-*EXAMPLE
+* EXAMPLE
    Get-PostNordParcelInformation -APIkey "123456789" -ShipmentID "987654321"
-*EXAMPLE2
+* EXAMPLE2
    $MyArray = "123456789", "987654321"
    $MyArray | ForEach-Object {Get-PostNordParcelInformation -APIKey "888888888" -ShipmentID $_}
-*EXAMPLE2
+* EXAMPLE2
    Get-PostNordParcelInformation -APIKey "123456789" -ShipmentID "987654321" | Select-Object ShipmentID, Status, DeliveryDate
-*LINK
+* LINK
    www.cloudpilot.no // Freddie Christiansen (freddie@cloudpilot.no) - 2020
 
 
